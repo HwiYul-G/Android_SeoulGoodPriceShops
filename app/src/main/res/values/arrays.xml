@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>한식</item>
+        <item>중식</item>
+        <item>경양식,일식</item>
+        <item>기타외식업(다방,패스트푸드등)</item>
+        <item>이 미용업</item>
+        <item>목욕업</item>
+        <item>세탁업</item>
+        <item>숙박업(호텔,여관)</item>
+        <item>영화관람</item>
+        <item>VTR대여</item>
+        <item>노래방</item>
+        <item>수영장/볼링장/당구장/골프연습장</item>
+        <item>기타서비스업종</item>
+    </string-array>
+    
+</resources>
