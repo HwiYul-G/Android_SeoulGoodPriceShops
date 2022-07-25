@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Y/Desktop/my_worksapce/MyAndrioid/RetrofitTest/app/src/main/res/layout/activity_main.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/Y/Desktop/my_worksapce/MyAndrioid/RetrofitTest/app/src/main/res/layout/activity_specific.xml" value="0.15081521739130435" />
-        <entry key="..\:/Users/Y/Desktop/my_worksapce/MyAndrioid/RetrofitTest/app/src/main/res/layout/item_shop.xml" value="0.246875" />
-        <entry key="..\:/Users/Y/Desktop/my_worksapce/MyAndrioid/RetrofitTest/app/src/main/res/xml/network_security_config.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Y/Desktop/guru/GoodPrice_1/app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
+        <entry key="..\:/Users/Y/Desktop/guru/GoodPrice_1/app/src/main/res/layout/activity_specific.xml" value="0.2947916666666667" />
+        <entry key="..\:/Users/Y/Desktop/guru/GoodPrice_1/app/src/main/res/layout/item_shop.xml" value="0.2947916666666667" />
+        <entry key="..\:/Users/Y/Desktop/guru_repo/GoodPrice_1/app/src/main/res/layout/activity_main.xml" value="0.2826086956521739" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

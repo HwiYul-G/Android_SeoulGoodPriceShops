@@ -13,8 +13,4 @@ interface ShopInfoService {
     @GET("ListPriceModelStoreService/1/40/{INDUTY_CODE_SE}")
     suspend fun getDataCoroutine(@Path("INDUTY_CODE_SE") INDUTY_CODE_SE: String): Response<ShopInfoResponse>
 
-//    fun getShopInfoData(
-//        @Query("KEY") KEY: String,
-//        @Query("Type") Type: String
-//    ) : Call<ShopInfoResponse>
 }
