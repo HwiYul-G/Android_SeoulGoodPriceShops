@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     // id 'kotlin-android-extensions'
     id 'kotlin-parcelize'
+    id 'com.google.gms.google-services'
+
 }
 
 android {
@@ -44,6 +46,7 @@ dependencies {
 
     // Glide : 이미지를 빠르게 불러오는 라이브러리
     implementation 'com.github.bumptech.glide:glide:4.13.2'
+    implementation 'com.google.firebase:firebase-firestore:24.2.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 
     // 코루틴
@@ -51,6 +54,13 @@ dependencies {
 
     // 위치가져오기
     implementation 'com.google.android.gms:play-services-location:20.0.0'
+
+    //ViewModel
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0'
+    implementation 'androidx.activity:activity-ktx:1.5.0'
+    // LiveData
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.0'
+
 
 
     implementation 'androidx.core:core-ktx:1.8.0'

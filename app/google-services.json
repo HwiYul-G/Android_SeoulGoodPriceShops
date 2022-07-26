@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "10916658333",
+    "project_id": "goodprice-fb975",
+    "storage_bucket": "goodprice-fb975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10916658333:android:f84b31eacb4aca0ace6874",
+        "android_client_info": {
+          "package_name": "com.example.retrofittest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10916658333-avi95et5gg3dud8g5ote5tuqe8t8fr6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7hB7Yot0RTc1g-p-4WpaYZ6q25VwpF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10916658333-avi95et5gg3dud8g5ote5tuqe8t8fr6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

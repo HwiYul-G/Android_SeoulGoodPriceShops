@@ -10,7 +10,7 @@ interface ShopInfoService {
 //    @GET("ListPriceModelStoreService/1/40/")
 //    fun getShopInfoData(): Call<ShopInfoResponse>
 
-    @GET("ListPriceModelStoreService/1/40/{INDUTY_CODE_SE}")
-    suspend fun getDataCoroutine(@Path("INDUTY_CODE_SE") INDUTY_CODE_SE: String): Response<ShopInfoResponse>
+    @GET("ListPriceModelStoreService/1/1000/")
+    suspend fun getDataCoroutine(): Response<ShopInfoResponse>
 
 }
