@@ -43,7 +43,6 @@ class ShopInfoAdapter : ListAdapter<Row, ShopInfoAdapter.ShopInfoViewHolder>(Sho
             with(binding){
                 tvName.text = item.sHNAME
                 tvAddress.text = item.sHADDR
-                tvPride.text = item.sHPRIDE
                 val imgUrl : String? = item.sHPHOTO
                 if(imgUrl != null){
                     Glide.with(this@ShopInfoViewHolder.itemView).load(imgUrl).into(ivImg)

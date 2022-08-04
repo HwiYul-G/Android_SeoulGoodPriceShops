@@ -8,50 +8,148 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#E7E9F7"
         android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_setting"
+            app:srcCompat="@android:drawable/ic_menu_mylocation" />
 
         <TextView
             android:id="@+id/tv_location"
-            android:layout_weight="15"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="ㅇㅇ구 ㅇㅇ동"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/btn_location_search"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="내 위치 확인"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/nanumsquare_eb"
+            android:text="강남구"
+            android:textSize="18sp"
+
+            />
 
     </LinearLayout>
-
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#E7E9F7"
+        android:orientation="horizontal">
+
         <Spinner
             android:id="@+id/spinner_category"
-            android:layout_weight="10"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="분류를 선택해주세요."
+            android:background="@color/white" />
+
         <Button
             android:id="@+id/btn_search"
-            android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Search"/>
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_setting"
+            android:fontFamily="@font/nanumsquare_eb"
+            android:text="검색"
+            android:textSize="16sp" />
     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/nanumsquare_eb"
+                    android:text="착한가격업소란?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/what_is_good_shop" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/peoples_img"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:text="착한가격업소 표찰과 스티커를 보셨나요?"
+                    android:fontFamily="@font/nanumsquare_eb"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goodshop_sticker"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/logo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_shop"/>
-
-
+        tools:listitem="@layout/item_shop" />
+    <Button
+        android:id="@+id/btn_update_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update db "
+        android:visibility="invisible"/>
 
 </LinearLayout>

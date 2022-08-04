@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_viewholder"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_margin="16dp">
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
 
-    <!-- item 구성은 일단 한 것인데 이미지를 어떻게 넣을지 고민이 필요.-->
     <ImageView
         android:id="@+id/iv_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_background"/>
+        android:layout_marginRight="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_background" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nanumsquare_eb"
             android:text="가게 이름"
-            android:textSize="30sp"/>
+            android:textColor="#5A5A5A"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_address"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nanumsquare_b"
             android:text="주소"
-            android:textSize="20sp"/>
+            android:textColor="#5A5A5A"
+            android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/tv_pride"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="가게 자랑"/>
 
     </LinearLayout>
-
 
 
 </LinearLayout>
